@@ -23,7 +23,9 @@ Sample code:
         LONG x, y;
 
         if (op(L"无标题 - 画图", NULL)
-            return TRUE;
+        {
+            return 1;
+        }
 
         while (!fp(L"xxx", L"xxx", &x, &y)
             && fp(L"向下翻页", L"按钮", &x, &y))
